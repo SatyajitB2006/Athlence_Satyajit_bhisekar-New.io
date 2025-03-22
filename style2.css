@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url('/PHOTO/Screenshot\ 2025-03-21\ 002724.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+    position: relative;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: navy;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: darkblue;
+}
+
+/* Footer Styling */
+footer {
+    background: #0a2846;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    max-width: 300px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 60vh;
+        justify-content: center;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .hero-content {
+        max-width: 90%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(0, 255, 255, 0.144);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background-color: transparent;
+    
+    
+}
+.icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+#p {
+    color: #444;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ro{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0c1b33;
+    display: flex;
+
+}
+
+.a{
+    height: 200px;
+    width: 900px;
+    background-color: transparent;
+    margin-top: 400px;
+    text-align: center;
+    color: white;
+}
+
+.b{
+    height: 100%;
+    width: 60%;
+    background-color: blue;
+    background: url(/PHOTO/BlaPslJYhZLKSUAkFLdZ2T-4096x4096.webp);
+    background-size: cover;
+}
+
+.well{
+    font-size: 70px;
+
+}
+
+#community{
+    font-size: 20px;
+
+}
+
+.learn{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.ad {
+    margin-bottom: 20px;
+    
+}
+.ad h1 {
+    font-size: 2em;
+    color: #333;
+}
+.ad p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.ad2{
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.ad2 p{
+
+}
+.ad {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.partner {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.partners{
+    display: flex;
+    gap: 100px;
+}
+.partner img {
+    width: 100%;
+    border-radius: 8px;
+}
+.partner h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+}
+.partner p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+.partner a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.partner a:hover {
+    background-color: #0056b3;
+}
